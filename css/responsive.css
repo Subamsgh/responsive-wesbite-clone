@@ -1,0 +1,21 @@
+@media only screen and (max-width: 940px) {
+  .navbar {
+    flex-direction: column;
+  }
+  .right-nav {
+    margin-left: 0px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .h-nav-resp {
+    height: 60px;
+  }
+  .v-class-resp {
+    visibility: hidden;
+  }
+  .navbar img {
+    width: 150px;
+    height: 42px;
+  }
+}
