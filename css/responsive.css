@@ -19,10 +19,7 @@
   .v-class-resp {
     visibility: hidden;
   }
-  .navbar img {
-    width: 150px;
-    height: 42px;
-  }
+
   .box-main {
     flex-direction: column-reverse;
     max-width: 100%;
