@@ -1,6 +1,11 @@
 @media only screen and (max-width: 940px) {
   .navbar {
     flex-direction: column;
+    display: none;
+    position: relative;
+    top: 0;
+    /* height: 700px;
+    transition: all 0.7s ease-out; */
   }
   .right-nav {
     margin-left: 0px;
@@ -17,5 +22,44 @@
   .navbar img {
     width: 150px;
     height: 42px;
+  }
+  .box-main {
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .secleft {
+    flex-direction: column-reverse;
+  }
+  .secright {
+    flex-direction: column-reverse;
+  }
+  .para {
+    padding: 0px;
+    margin: 25px 30px;
+  }
+  .text-small {
+    margin-top: 12px;
+  }
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+  .btn {
+    margin: 7px 10px;
+  }
+  .secondhalf {
+    display: none;
+  }
+  .text-big {
+    display: flex;
+    justify-content: center;
+  }
+  .nav-item {
+    line-height: 1.5;
+  }
+  .background {
+    background: rgba(0, 0, 0, 0.2) url("../images/bg.jpg");
+    background-size: cover;
+    background-blend-mode: darken;
   }
 }

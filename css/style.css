@@ -2,6 +2,10 @@
 * {
   padding: 0;
   margin: 0;
+  text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
 }
 .navbar {
   display: flex;
@@ -23,10 +27,11 @@
 }
 .nav-item input {
   padding: 7px;
+  margin-right: 15px;
 }
 .nav-item button {
   padding: 7px;
-  font-size: 16px;
+  font-size: 12px;
 }
 .nav-item a {
   text-decoration: none;
@@ -37,12 +42,12 @@
   margin-left: auto;
 }
 .background {
-  background: rgba(0, 0, 0, 0.7) url("../images/bg.jpg");
+  background: rgba(0, 0, 0, 0.9) url("../images/bg.jpg");
   background-size: cover;
   background-blend-mode: darken;
 }
 .background1 {
-  background: rgba(0, 0, 0, 0.2) url("../images/bg.jpg");
+  background: rgba(0, 0, 0, 0.8) url("../images/bg.jpg");
   background-size: cover;
   background-blend-mode: darken;
 }
